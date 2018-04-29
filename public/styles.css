@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #613616;
+    color: #ffffaa;
+}
+
+.controls,
+.stopwatch {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-family: Lato;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.controls .button {
+    padding: 15px;
+}
+
+.controls a {
+    text-decoration: none;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+}
+
+.results li {
+    list-style: none;
+    letter-spacing: 1.5px;
+}
